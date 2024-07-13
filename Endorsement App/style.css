@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+   cursor: default;
+   user-select: none;
+   box-sizing: border-box;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    margin:  auto;
+    background: #064E3B;
+    align-items: center;
+    padding: 0 36px;
+    flex-grow: 1;
+
+}
+
+.container img{
+    width: 90px;
+    height: 90px;
+   margin-top: 10px;
+    left: 150px;
+    margin-bottom: 17px;
+ 
+
+}
+
+.container h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 19px;
+
+}
+
+.container #textarea-el{
+    width: 100%;
+    height: 118px;
+    top: 202px;
+    left: 36px;
+    padding: 13px 16px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #444059;
+    color:#8F8F8F;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 13px;
+    cursor: text;
+    display: block;
+    border: none;
+}
+
+.container #textarea-el:focus{
+    outline: none;
+}
+
+.container button{
+    width: 100%;
+    height: 61px;
+    border-radius: 8px;
+    background: #8B5CF6;
+    color: #04131C;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 24px;
+    display: block;
+    border: none;
+}
+
+.container span{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #FFFFFF;
+   
+
+
+}
+
+.container ul{
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    margin-top: 19px;
+    width: 100%;
+    color: #FFFFFF;
+    
+}
+
+ul li{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    background: #ffffff;
+    color: #1B1924;
+    padding: 13px 16px;
+    margin-bottom: 13px;
+    
+    
+}
+
+.container .small-container{
+    display: flex;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.small-container input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #444059;
+    color:#8F8F8F;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 13px;
+    cursor: text;
+    display: block;
+    box-shadow: none;
+}
+
+.small-container input:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
